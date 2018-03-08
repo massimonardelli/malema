@@ -1,0 +1,13 @@
+root = true
+
+[frontend/**]
+  end_of_line = lf
+  insert_final_newline = true
+
+[frontend/**.{js, html}]
+  indent_style = tab
+  indent_size = 4
+
+[frontend/package.json]
+  indent_style = tab
+  indent_size = 2
